@@ -1,7 +1,7 @@
 
 
-# Python have various types of data types
-# int, float, complex, str, bool, list, tuple, set, dict
+#* Python have various types of data types
+#* int, float, complex, str, bool, list, tuple, set, dict
 
 """
     This is multi-line comment
@@ -18,7 +18,7 @@ print(type(123))
 print(type(0))
 print(type(-123))
 
-# Python can handle very large numbers
+#* Python can handle very large numbers
 print(123213213123123123123123123123213123123 + 1)
 
 

@@ -19,6 +19,9 @@ print(type(float("100.5")))
 #* this not round, only remove the decimal part
 print(int(3.1416))
 
+print(round(3.5)) #* 4 round to the nearest pairt  number
+print(round(2.5)) #* 2 round to the nearest pair number
+
 print(bool(3)) # True
 #* the only number that is False is 0
 print(bool(0)) # False
