@@ -2,7 +2,7 @@
 
 ## Week 1
 
-- Hello world
+- Hello world with prints
 - Data types
 - Type convert
 - Variables
