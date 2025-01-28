@@ -11,3 +11,11 @@
 - Boolean
 - Strings
 - Exercises
+
+## Week 2
+
+- Boolean
+- Conditions
+- Lists
+- Loops
+- Functions
