@@ -58,5 +58,39 @@ if not is_weekend:
     print('Go to work')
 
 
+number = 5
+#* only evaluates if the number is different from 0
+if number:
+    print("Number is different from 0")
+
+number = 0
+if number:
+    print("Number is different from 0")
+else:
+    print("Number is 0")
+
+name = "angel"
+if name:
+    print("Name is not empty")
+else:
+    print("Name is empty")
+
+name = ""
+
+if name:
+    print("Name is not empty")
+else:
+    print("Name is empty")
+
+number = 3
+is_three = number == 3
+
+if is_three:
+    print("Number is 3")
+
 #* Ternary Operator
+
+age = 17
+message = "adult" if age >= 18 else "children"
+print(message)
 
