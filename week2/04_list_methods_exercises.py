@@ -42,7 +42,7 @@ system("clear")
 # Imprime la lista resultante.
 
 # lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# del lista [1: 4]
+# del lista [2: 5]
 # print(lista)
 
 # Ejercicio 4: Ordenar y contar
