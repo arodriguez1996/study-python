@@ -19,3 +19,9 @@
 - Lists
 - Loops
 - Functions
+
+## Week 3
+
+- Loops
+- Functions
+- Ranges
