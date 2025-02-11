@@ -55,7 +55,7 @@ print(multiplicar(10, 2))
 
 
 
-def describe_person(name, age, gender):
+def describe_person(name: str, age: int, gender: str):
     print(f'Hello i am {name}, i have {age} years old and im {gender}')
 
 describe_person('Angel', 28, 'male')
