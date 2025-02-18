@@ -25,3 +25,8 @@
 - Loops
 - Functions
 - Ranges
+
+## Week 4
+
+- Dictionaries
+- Tuples
