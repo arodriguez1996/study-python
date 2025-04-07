@@ -49,3 +49,29 @@ input = {
 
 response = requests.put(f"{api_post}/1", json=input)
 print(f"Exitoso {response.status_code} : {response.json()}")
+
+
+OPENAI_API_KEY =  "sk-XXXxXXxXXXxXX"
+
+def call_openai_gpt(api_key, prompt):
+    OPEN_AI_URL = "https://api.openai.com/v1/chat/completions"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {api_key}"
+    }
+    data = {
+        "model": "gpt-4o-mini",
+        "messages": [
+            {
+                "role": "user", "content": prompt
+            }
+        ]
+    }
+
+    response = requests.post(OPEN_AI_URL, headers=headers, json=data)
+    print(response.json())
+
+api_response = call_openai_gpt(OPENAI_API_KEY, "escribe un poema sobre la programacion")
+
+# print(json.dumps(api_response, indent=2))
+print(api_response["choices"][0]["message"]["content"])
