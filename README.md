@@ -30,3 +30,13 @@
 
 - Dictionaries
 - Tuples
+
+## Week 5
+
+- Regex
+
+## Week 6
+
+- Dates
+- Request
+- Classes
